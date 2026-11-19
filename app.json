@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Gota de Vida",
+    "slug": "gota-de-vida",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "gotadevida",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": { "supportsTablet": false, "bundleIdentifier": "br.ufrn.gotadevida" },
+    "android": {
+      "package": "br.ufrn.gotadevida",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      ["expo-notifications", { "color": "#C62828" }],
+      ["expo-location", { "locationWhenInUsePermission": "Usamos sua localização para encontrar hemocentros próximos." }]
+    ],
+    "experiments": { "typedRoutes": false }
+  }
+}
